@@ -1,0 +1,69 @@
+/////////////////////////
+//					   //
+//		  COLOR    	   //
+//					   //
+/////////////////////////
+$tea: #5fb19a;
+$light-tea: #90d8c2;
+$leaf: #cfdda0;
+$maize: #f1d043;
+$egg-shell: #fef1c5;
+$gunmetal: #4a4a56;
+$tomato: #f7ad88;
+$cream: #fef5e3;
+$white-gray: #d8d8d8;
+
+$white: #ffffff;
+$white-1: $white;
+$white-2: #f9f9f9;
+
+$gray: #b2b2b2;
+$gray-1: $gray;
+$gray-2: #4a4a4a;
+$gray-3: #6d6d6d;
+$gray-4: #898787;
+
+$black: #3a3a3a;
+$black-1: $black;
+$black-2: #1d1d1d;
+
+
+/////////////////////////
+//					   //
+//     TYPOGRAPHY      //
+//					   //
+/////////////////////////
+$font-1:'Oxygen', sans-serif;
+$font-2:'Oswald', serif;
+$font-3:'Rock Salt';
+$font-4:'Permanent Marker', cursive;
+$fontStyles : (
+	('h1', $font-1, 700, 2.5rem, $black, normal, normal, 5px 0, 10px 0),
+	('h2', $font-1, 700, 2rem, $black, normal, normal, 5px 0, 10px 0),
+	('h3', $font-1, 400, 1.75rem, $black, normal, normal, 5px 0, 10px 0),
+	('h4', $font-1, 400, 1.5rem, $black, normal, normal, 5px 0, 10px 0),
+	('h5', $font-1, 300, 1.25rem, $black, normal, normal, 5px 0, 10px 0),
+	('h6', $font-1, 300, 1rem, $black, normal, normal, 5px 0, 10px 0),
+	('p', $font-1, 300, 1.25rem, $black, 1.8rem, normal, 5px 0, 5px 0 0),
+	('strong', $font-1, 700, 1rem, $black, 1.5rem, normal, 5px 0, 5px 0 0),
+	('blockquote', $font-3, 400, 2rem, $black, normal, normal, 2rem 0 .5rem, 0 ),
+	('li', $font-1, 400, 1rem, $black, 1.5rem, normal, 0 0 10px 50px, 0 ),
+);
+
+/////////////////////////
+//					   //
+//  GRID & BREAKPOINTS //
+//					   //
+/////////////////////////
+//number of columns in this grid, you can customize it for every screen size below by changing the grid size value!
+// ie. 	('xxl', 2560px, $gridSize/ 2),
+
+$gridSize : 12 ; 
+$breakpoints : (
+	('xxl', 2560px, $gridSize),
+	('xl', 1440px, $gridSize),
+	('l', 1024px, $gridSize),
+	('m', 769px, $gridSize),
+	('s', 425px, $gridSize)
+);
+$border-box-mode : true;

@@ -1,0 +1,8 @@
+@import 'partials/import';
+
+body{
+	background-color: white;
+	color: black;
+	@include grid(8,8,8,8,8);
+	display: flex;
+}
